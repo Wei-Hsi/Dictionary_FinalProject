@@ -27,8 +27,8 @@ public ExecSQL() throws SQLException {
 ### 2. Default 7000 words database
 There are two CSV files under the `7000words_database` folder needed to be built in advance.
 ### 3. Import jar
-This project is built on Eclipse. First, you need to put the jar file under your project.
-Double click the project >> Properties >> Java Build Path >> Libraries >> Add External JARs >> add `mysql-connector-java-8.0.16.jar` >> apply
+This project is built on Eclipse. First, you need to put the jar file under your project.  
+Right-click the project >> Properties >> Java Build Path >> Libraries >> Add External JARs >> add `mysql-connector-java-8.0.16.jar` >> apply
 ***
 ## 04. Key Functions
 ### Dictionary Search
