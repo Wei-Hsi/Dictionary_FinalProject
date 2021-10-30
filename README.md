@@ -12,8 +12,8 @@ This project is built on Google Colab. First of all, you need to new a folder na
 ### 2. jar
 Upload the CSV file named **"NewsTitle2"** to the folder you have built.
 ***
-## 03. Demo video
+## 03. Key Functions
 ***
-## 04. Demo video
+## 04. Demo Video
 
 
