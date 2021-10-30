@@ -1,8 +1,12 @@
 # Memorize Dictionary
 
 
-## 01. Introduction
+## 01. Motivation & Introduction
 This is a school final project.
+In Taiwan, we have lots of chances to use English. As we grow up, English plays a more and more important role in our lives. Taking English tests for college, watching classical American series, or even presenting in English, once when we do not understand the word, we will loop up the dictionary. However, we will usually forget the meaning of the word the next day, because this type of short-term memory can not last for a long time.
+
+Therefore, we want to develop some kind of application which is a dictionary but also provides learning tools for studying and memorizing these English words in a more efficient and easier way.
+
 ## 02. Environment Setting
 ### 1. Database system
 This project is built on Google Colab. First of all, you need to new a folder named **"Colab Notebooks"** in your google drive. Then, import your drive from google.colab to access the folder.
