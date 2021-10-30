@@ -14,6 +14,9 @@ Upload the CSV file named **"NewsTitle2"** to the folder you have built.
 ***
 ## 03. Key Functions
 ![image](https://raw.githubusercontent.com/Wei-Hsi/template/main/all%20project%20layout/java%20app/main%20page.png?token=ARU42BWDOVCA2YQTBFSRDWTBPWYOE)
+![image](https://raw.githubusercontent.com/Wei-Hsi/template/main/all%20project%20layout/java%20app/main%20page.png?token=ARU42BWDOVCA2YQTBFSRDWTBPWYOE)
+![image](https://raw.githubusercontent.com/Wei-Hsi/template/main/all%20project%20layout/java%20app/main%20page.png?token=ARU42BWDOVCA2YQTBFSRDWTBPWYOE)
+![image](https://raw.githubusercontent.com/Wei-Hsi/template/main/all%20project%20layout/java%20app/main%20page.png?token=ARU42BWDOVCA2YQTBFSRDWTBPWYOE)
 ***
 ## 04. Demo Video
 
