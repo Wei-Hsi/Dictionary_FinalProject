@@ -13,8 +13,16 @@ In this project, we choose the people who want to take English tests as our targ
 ## 03. Environment Setting
 ### 1. Database system
 This project is built on Google Colab. First of all, you need to new a folder named **"Colab Notebooks"** in your google drive. Then, import your drive from google.colab to access the folder.
-```
-%cd '/content/drive/My Drive/Colab Notebooks'
+```java
+public ExecSQL() throws SQLException {
+		String server = "jdbc:mysql://140.119.19.73:9306/"; //change the URL that the database you are using
+		String database = "MG14";
+		String config = "?useUnicode=true&characterEncoding=utf8";
+		this.url= server + database + config;
+		this.username= "MG14";
+		this.password= "RHJX2R";
+		initializing();
+	}
 ```
 ### 2. Import jar
 This project is built on Eclipse. First, you need to put the jar file under your project.
