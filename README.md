@@ -26,6 +26,12 @@ Upload the CSV file named **"NewsTitle2"** to the folder you have built.
 ![image](https://github.com/Wei-Hsi/template/blob/main/all%20project%20layout/java%20app/add%20new%20word.png)
 ### Quiz
 ![image](https://github.com/Wei-Hsi/template/blob/main/all%20project%20layout/java%20app/test%20page.png)
+![image](https://github.com/Wei-Hsi/template/blob/main/all%20project%20layout/java%20app/test%20result.png)
+### Flashcard
+![image](https://github.com/Wei-Hsi/template/blob/main/all%20project%20layout/java%20app/ENG%20flashcard.png)
+![image](https://github.com/Wei-Hsi/template/blob/main/all%20project%20layout/java%20app/CHN%20flashcard.png)
+
+***
 ## 05. Demo Video
 
 
