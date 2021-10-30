@@ -24,7 +24,7 @@ public class ExecSQL {
 	private VocabularyMgr vocabularyMgr;
 	
 	public ExecSQL() throws SQLException {
-		String server = "jdbc:mysql://140.119.19.73:9306/";
+		String server = "jdbc:mysql://140.119.19.73:9306/"; //change the URL that the database you are using
 		String database = "MG14";
 		String config = "?useUnicode=true&characterEncoding=utf8";
 		this.url= server + database + config;
@@ -36,7 +36,7 @@ public class ExecSQL {
 	private void initializing() throws SQLException {
 		conn = DriverManager.getConnection(url,username,password);
 	}
-	//�ϥΪ̷j�M��r�ɡA�ݸ�Ʈw���S���o�Ӧr
+
 	public boolean findWord(String word) throws SQLException {
 		vocabularyMgr = new VocabularyMgr();
 		
@@ -85,7 +85,7 @@ public class ExecSQL {
 	public String getCword() throws SQLException {
 		return this.Cword;		
 	}
-	//�ϥΪ̷j�M��r�ɡA�Ыظ�ƪ�
+	
 	public boolean createSearchingWordTable() throws SQLException {
 		String query = "CREATE TABLE IF NOT EXISTS SearchingWord"
 						+ " (Word VARCHAR(20) NOT NULL,"
@@ -100,7 +100,7 @@ public class ExecSQL {
 			return false;
 		}
 	}
-	//��j�M�L����r�[�i�s�Ъ�table
+	
 	public boolean addSearchingWord(String word) throws SQLException {
 		final LocalDateTime currentDateTime = LocalDateTime.now();
 		String query = "INSERT INTO SearchingWord VALUES(?,?)";
@@ -148,7 +148,7 @@ public class ExecSQL {
 		}
 		return dateTime.toString();
 	}
-	//�M�����v����
+	
 	public boolean clearAll() throws SQLException {
 		String query = "DELETE FROM SearchingWord";
 		PreparedStatement createTableStat = conn.prepareStatement(query);
@@ -161,7 +161,7 @@ public class ExecSQL {
 			return false;
 		}
 	}
-	//��d�쪺��r�[�i��ƪ��
+	
 	public boolean addNewWord(String Eword, String POS, String Cword) throws SQLException {
 		String query = "INSERT INTO NewWord VALUES(?,?,?)";
 		PreparedStatement createTableStat = conn.prepareStatement(query);
@@ -177,7 +177,7 @@ public class ExecSQL {
 			return false;
 		}
 	}
-	//�ۤv�إ߷s��r
+	
 	public boolean createNewWord(String Eword, String POS, String Cword) throws SQLException {
 		String query = "INSERT INTO NewWord VALUES(?,?,?)";
 		PreparedStatement createTableStat = conn.prepareStatement(query);
