@@ -12,7 +12,7 @@ In this project, we choose the people who want to take English tests as our targ
 ***
 ## 03. Environment Setting
 ### 1. Database system
-This project is built on Google Colab. First of all, you need to new a folder named **"Colab Notebooks"** in your google drive. Then, import your drive from google.colab to access the folder.`ExecSQL`class
+This project connected with the `phpMyAdmin` database system. However, it was closed due to the end of the semester. Thus, you need to change your database URL in the `ExecSQL`class.
 ```java
 public ExecSQL() throws SQLException {
 		String server = "jdbc:mysql://140.119.19.73:9306/"; //change the URL that the database you are using
@@ -24,7 +24,8 @@ public ExecSQL() throws SQLException {
 		initializing();
 	}
 ```
-### 2. Import jar
+### 2. Create default 7000 words database
+### 3. Import jar
 This project is built on Eclipse. First, you need to put the jar file under your project.
 Double click the project >> Properties >> Java Build Path >> Libraries >> Add External JARs >> add `mysql-connector-java-8.0.16.jar` >> apply
 ***
