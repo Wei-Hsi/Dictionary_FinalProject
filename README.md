@@ -13,7 +13,7 @@ This project is built on Google Colab. First of all, you need to new a folder na
 Upload the CSV file named **"NewsTitle2"** to the folder you have built.
 ***
 ## 03. Key Functions
-![image](https://raw.githubusercontent.com/Wei-Hsi/template/main/all%20project%20layout/java%20app/main%20page.png?token=ARU42BQOBWNDS5QKDYFCAULBPWXSA<width="50%">)
+![image](https://raw.githubusercontent.com/Wei-Hsi/template/main/all%20project%20layout/java%20app/main%20page.png?token=ARU42BQOBWNDS5QKDYFCAULBPWXSA)
 ***
 ## 04. Demo Video
 
