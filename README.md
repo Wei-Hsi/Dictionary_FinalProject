@@ -24,7 +24,7 @@ public ExecSQL() throws SQLException {
 		initializing();
 	}
 ```
-### 2. Create default 7000 words database
+### 2. Default 7000 words database
 ### 3. Import jar
 This project is built on Eclipse. First, you need to put the jar file under your project.
 Double click the project >> Properties >> Java Build Path >> Libraries >> Add External JARs >> add `mysql-connector-java-8.0.16.jar` >> apply
