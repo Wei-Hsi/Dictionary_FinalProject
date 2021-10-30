@@ -16,9 +16,9 @@ This project is built on Google Colab. First of all, you need to new a folder na
 ```
 %cd '/content/drive/My Drive/Colab Notebooks'
 ```
-### 2. jar
-`mysql-connector-java-8.0.16.jar`
-Upload the CSV file named **"NewsTitle2"** to the folder you have built.
+### 2. Import jar
+This project is built on Eclipse. First, you need to put the jar file under your project.
+Double click the project >> Properties >> Java Build Path >> Libraries >> Add External JARs >> add `mysql-connector-java-8.0.16.jar` >> apply
 ***
 ## 04. Key Functions
 ### Dictionary Search
