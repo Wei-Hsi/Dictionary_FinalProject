@@ -12,7 +12,7 @@ In this project, we choose the people who want to take English tests as our targ
 ***
 ## 03. Environment Setting
 ### 1. Database system
-This project is built on Google Colab. First of all, you need to new a folder named **"Colab Notebooks"** in your google drive. Then, import your drive from google.colab to access the folder.
+This project is built on Google Colab. First of all, you need to new a folder named **"Colab Notebooks"** in your google drive. Then, import your drive from google.colab to access the folder.`ExecSQL`class
 ```java
 public ExecSQL() throws SQLException {
 		String server = "jdbc:mysql://140.119.19.73:9306/"; //change the URL that the database you are using
