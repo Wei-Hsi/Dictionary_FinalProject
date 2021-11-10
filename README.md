@@ -10,7 +10,7 @@ Therefore, we want to develop some kind of application which is a dictionary but
 In this project, we choose the people who want to take English tests as our target audience, especially Taiwanese high school students. In Taiwan, there is a test administered by College Entrance Examination Center to measure a high school student's readiness for college in subjects, and the English test is one of them. For the English test, high school students need to memorize at least **7000 words** to prepare, and the amount is quite a lot to them, therefore if this application can help them that will be awesome. As for the function part, we will have quizzes and flashcards. Additionly, users can add new words to this dictionary out of the default 7000-word folder.
 
 ***
-## 03. Environment Setting
+## 03. Setup
 ### 1. Database system
 This project connected with the `phpMyAdmin` database system. However, it was closed due to the end of the semester. Thus, you need to change your database URL in the `ExecSQL`class.
 ```java
