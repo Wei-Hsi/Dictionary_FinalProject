@@ -1,6 +1,6 @@
 # Memorize Dictionary
-This project is from Programming Language I&II (Java) course at NCCU.
-###video demo: https://youtu.be/MMLbi3hKFIQ
+This project is from Programming Language I&II (Java) course at NCCU.  
+### video demo: https://youtu.be/MMLbi3hKFIQ
 
 ## 01. Motivation
 In Taiwan, we have lots of chances to use English. As we grow up, English plays a more and more important role in our lives. Taking English tests for college, watching classical American series, or even presenting in English, once when we do not understand the word, we will loop up the dictionary. However, we will usually forget the meaning of the word the next day, because this type of short-term memory can not last for a long time.
