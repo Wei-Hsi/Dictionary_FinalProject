@@ -1,5 +1,5 @@
 # Memorize Dictionary
-This project is from Programming Language I&II (Java) course at NCCU.  
+This is a course project from Programming Language I&II (Java) at NCCU.  
 ### video demo: https://youtu.be/MMLbi3hKFIQ
 
 ## 01. Motivation
